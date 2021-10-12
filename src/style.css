@@ -1,0 +1,57 @@
+body{
+    background-color: cadetblue;
+}
+div {
+	border: 1px solid grey;
+	margin: 5px;
+	padding: 5px;
+}
+
+.dashBoard {
+  flex-basis: 50%;
+  display: grid;
+  grid-template-columns: 15vw 15vw;
+  color: rgb(100, 149, 172);
+  justify-items: stretch;
+  /* justify-content: center; */
+}
+
+
+.content {
+  flex-basis: 60%;
+  display: grid;
+  grid-template-rows: 15vw 15vw;
+  color: rgb(100, 149, 172);
+  justify-items: stretch;
+  /* justify-content: center; */
+  min-height: 50vh;
+  min-width: 80vh;
+}
+
+.contentTopRow {
+  flex-basis: 60%;
+  display: grid;
+  grid-template-columns: 15vw 15vw 15vw;
+  color: rgb(100, 149, 172);
+  justify-items: stretch;
+  /* justify-content: center; */
+}
+.contentBottomRow {
+  flex-basis: 60%;
+  display: grid;
+  grid-template-columns: 15vw;
+  color: rgb(100, 149, 172);
+  justify-items: stretch;
+  /* justify-content: center; */
+}
+
+
+h3 {
+    color: black;
+}
+
+h1 {
+  flex-basis: 60%;
+  color: black;
+
+}
